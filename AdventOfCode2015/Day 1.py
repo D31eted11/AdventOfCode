@@ -2,7 +2,9 @@ level = 0
 count = 0
 with open("level.txt") as file:
     string = file.read()
+    print(string)
     broken = [*string]
+    print(broken)
     for char in broken:
         count += 1
         if char == "(":

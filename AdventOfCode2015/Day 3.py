@@ -1,8 +1,6 @@
 def part1():
     row = 0
     collum = 0
-    count = 0
-    debug = 0
     with open("Day3Input.txt") as f:
         content = f.read()
         split = [*content]

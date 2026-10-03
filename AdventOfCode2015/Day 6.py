@@ -4,6 +4,10 @@ def part1():
         for row in f:
           instruction = row.split(" ")
           print(instruction)
+          instruction.sort()
+          print(instruction)
+
+
 
 
 part1()
